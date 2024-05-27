@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementApi", "src\TaskManagementApi\TaskManagementApi.csproj", "{22FC5516-44CE-4CC8-B539-84212097DF8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagementApi", "src\TaskManagementApi\TaskManagementApi.csproj", "{22FC5516-44CE-4CC8-B539-84212097DF8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Domain", "src\TaskManagement.Domain\TaskManagement.Domain.csproj", "{8F6A0F70-761F-45A1-B37F-139DB274BD8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Domain", "src\TaskManagement.Domain\TaskManagement.Domain.csproj", "{8F6A0F70-761F-45A1-B37F-139DB274BD8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Infrastructure", "src\TaskManagement.Infrastructure\TaskManagement.Infrastructure.csproj", "{AEF759BF-2753-4F2F-A30A-98AA1D772D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagement.Infrastructure", "src\TaskManagement.Infrastructure\TaskManagement.Infrastructure.csproj", "{AEF759BF-2753-4F2F-A30A-98AA1D772D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagement.Tests", "src\TaskManagement.Tests\TaskManagement.Tests.csproj", "{5B4D24DD-51F6-44B0-8C58-A2748BC1945B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{AEF759BF-2753-4F2F-A30A-98AA1D772D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEF759BF-2753-4F2F-A30A-98AA1D772D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEF759BF-2753-4F2F-A30A-98AA1D772D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4D24DD-51F6-44B0-8C58-A2748BC1945B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4D24DD-51F6-44B0-8C58-A2748BC1945B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4D24DD-51F6-44B0-8C58-A2748BC1945B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4D24DD-51F6-44B0-8C58-A2748BC1945B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,7 +10,7 @@ namespace TaskManagement.Domain.Interfaces
 {
     public interface ITaskRepository
     {
-        Task<IEnumerable<TaskItem>> GetTasksAsync(TaskStatus? status);
+        Task<IEnumerable<TaskItem>> GetTasksAsync(TaskStatusPonta? status);
         Task<TaskItem> GetTaskAsync(int id);
         Task<TaskItem> CreateTaskAsync(TaskItem taskItem);
         Task<bool> UpdateTaskAsync(TaskItem taskItem);

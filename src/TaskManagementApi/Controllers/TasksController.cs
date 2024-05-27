@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TaskManagement.Domain.Entities;
+using TaskManagement.Domain.Enums;
 using TaskManagement.Domain.Interfaces;
 
 namespace TaskManagementApi.Controllers
@@ -18,7 +19,7 @@ namespace TaskManagementApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TaskItem>>> GetTasks([FromQuery] TaskStatus? status)
+        public async Task<ActionResult<IEnumerable<TaskItem>>> GetTasks([FromQuery] TaskStatusPonta? status)
         {
             var tasks = await _taskService.GetTasksAsync(status);
             return Ok(tasks);

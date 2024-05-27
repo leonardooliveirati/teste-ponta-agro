@@ -17,7 +17,7 @@ namespace TaskManagement.Infrastructure.Data
             _context = context;
         }
 
-        public async Task<IEnumerable<TaskItem>> GetTasksAsync(TaskStatus? status)
+        public async Task<IEnumerable<TaskItem>> GetTasksAsync(TaskStatusPonta? status)
         {
             var tasksQuery = _context.Tasks.AsQueryable();
 

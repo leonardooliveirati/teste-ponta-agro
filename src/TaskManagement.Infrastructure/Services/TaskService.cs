@@ -15,7 +15,7 @@ namespace TaskManagement.Infrastructure.Services
             _taskRepository = taskRepository;
         }
 
-        public async Task<IEnumerable<TaskItem>> GetTasksAsync(TaskStatus? status)
+        public async Task<IEnumerable<TaskItem>> GetTasksAsync(TaskStatusPonta? status)
         {
             return await _taskRepository.GetTasksAsync(status);
         }
